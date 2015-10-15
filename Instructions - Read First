@@ -1,0 +1,68 @@
+#	@(#)Program:	    $AgroDB$
+#	@(#)Version:        $Revision: 1.0 $
+#	@(#)Purpose:        Visual Data Analysis Tool
+#	@(#)Author(s):         V.Rajagopal, Nikhil Pularru, Diksha Bathula
+
+The utility is a python program that uses multiple modules to represent data in tabular as well as graphical format.
+Graphs for specific queries can be generated using a simple GUI interface.
+
+Install the following python(2.7) packages first - 
+
+PIL
+Tkinter
+MySQLdb
+tkintertable
+numpy
+matplotlib
+
+## Script to auto-install above modules to be added soon ##
+
+Set up mysql-server on your machine.
+
+Ubuntu users can use 'sudo apt-get install mysql-server'.
+
+The utility was developed in terms of an agricultural database management software. The program assumes the existence of the following tables in a mysql database named 'AGRICULTURE' :
+
+Andhra_Pradesh
+Assam
+Bihar
+Gujarat
+Haryana
+Himachal_Pradesh
+Jammu_and_Kashmir
+Karnataka
+Kerala
+Madhya_Pradesh
+Maharashtra
+Manipur
+Meghalaya
+Nagaland
+Orissa
+Punjab
+Rajasthan
+Sikkim
+Tamil_Nadu
+Tripura
+Uttar_Pradesh
+Uttaranchal
+West_Bengal
+Mordor
+
+each with the following fields: 
+
+DISTRICT - VARCHAR(30)
+YEAR - INTEGER
+CROP - VARCHAR(30)
+AREA - FLOAT
+PRODUCTION - FLOAT
+YIELD - FLOAT
+
+## A script to auto-generate these tables to be added soon. ##
+
+Execute 'python AgroDB.py' on the command line.
+Login using the credentials you provided when setting up mysql-server.
+
+
+Customization Scope
+
+Renaming the database, tables and the corresponding values/variables in the python source code (and choosing relevant images for the aesthetically oriented) can essentially lead to this being used as an analysis tool for any sort of data.

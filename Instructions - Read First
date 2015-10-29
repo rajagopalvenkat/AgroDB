@@ -1,10 +1,12 @@
 #	@(#)Program:	    $AgroDB$
 #	@(#)Version:        $Revision: 1.0 $
 #	@(#)Purpose:        Visual Data Analysis Tool
-#	@(#)Author(s):         V.Rajagopal, Nikhil Pularru, Diksha Bathula
+#	@(#)Author(s):      V.Rajagopal, Nikhil Pularru, Diksha Bathula
 
 The utility is a python program that uses multiple modules to represent data in tabular as well as graphical format.
 Graphs for specific queries can be generated using a simple GUI interface.
+
+Basically, this can be modified into a tool to generate graphical representations of data, using custom search queries.
 
 Install the following python(2.7) packages first - 
 
